@@ -399,7 +399,14 @@ header{
     width: 100%;
   }
 }
-
+@media (max-width: 456px) {
+  #experience_down h2{
+    font-size: 23px !important;
+  }
+  .resume_exp a{
+    font-size: 12px !important;
+  }
+}
 
 
 

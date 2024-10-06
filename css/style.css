@@ -392,6 +392,12 @@ header{
   .about_wrapper h1{
     font-size: 37px !important;
   }
+    .project_contents h2{
+    font-size: 23px;
+  }
+  .project_contents{
+    width: 100%;
+  }
 }
 
 

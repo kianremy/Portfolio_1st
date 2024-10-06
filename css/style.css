@@ -400,11 +400,11 @@ header{
   }
 }
 @media (max-width: 456px) {
-  #experience_down h2{
+  h2{
     font-size: 21px !important;
   }
   .resume_exp a{
-    font-size: 14px !important;
+    font-size: 12px !important;
   }
 }
 

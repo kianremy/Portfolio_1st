@@ -1,0 +1,399 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Inter;
+  overflow-x: hidden;
+}
+p{
+  color: #6c757d !important;
+}
+h1,h3,h4,h5{
+  background: -webkit-linear-gradient(315deg, #1e30f3 0%, #e21e80 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* ##################### HEADER SECTION ###################### */
+header{
+  width: 100%;
+  background-color: #ffffff;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color: #ffffff;
+  color: white;
+  position: relative;
+  z-index: 1000; /* Ensure it stays on top of the menu */
+}
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 8px;
+  color: #1e30f4;
+}
+.menu {
+  display: flex;
+  list-style: none;
+  gap: 1.5rem;
+  margin-top: 10px;
+}
+.menu li a {
+  color: #6c757d;
+  text-decoration: none;
+  font-weight: 600;
+}
+.menu-toggle {
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 30px;
+  height: 20px;
+  cursor: pointer;
+}
+.menu-toggle span {
+  display: block;
+  height: 3px;
+  background: #6c757d;
+  border-radius: 3px;
+}
+
+.menu_toggle_wrapper{
+  border: 1px solid rgba(108, 117, 125, 0.2) !important;
+  padding: 7px;
+  display: none;
+}
+#menu li a:hover{
+  color: #1e30f3 !important;
+  transition: all ease 0.2s;
+}
+/* ################## INTRO SECTION ##################### */
+.intro_section{
+  width: 100%;
+}
+
+.intro_section span{
+  background: -webkit-linear-gradient(315deg, #1e30f3 0%, #e21e80 100%) !important;
+  color: #ffffff;
+  font-weight: 600;
+  padding: 5px;
+  border-radius: 8px;
+}
+.intro_section h1{
+  font-size: 70px;
+  font-weight: 700;
+}
+.intro_section p{
+  font-size: 30px;
+  font-weight: 300;
+}
+.intro_link_1 a{
+  background: #1e30f3 !important;
+  padding: 15px 40px !important;
+  border-radius: 8px;
+  color: #ffffff;
+  font-weight: 500;
+}
+.intro_link_2 a{
+  background: #ffffff !important;
+  padding: 15px 40px !important;
+  border-radius: 8px;
+  color: #212529;
+  font-weight: 500;
+  border: 1px solid #212529;
+}
+.intro_box_button {
+  gap: 8px;
+}
+.intro_link_1 a:hover {
+  background-color: #1a29cf !important;
+  transition: all ease 0.3s !important;
+  color: #ffffff !important;
+  text-decoration: none;
+}
+.intro_link_2 a:hover {
+  background: #212529 !important;
+  color: #ffffff !important;
+  transition: all ease 0.3s !important;
+  text-decoration: none;
+}
+.intro_img img{
+  width: 380px;
+  position: absolute;
+  transform: translateY(-71px);
+}
+.intro_img_back{
+  position: relative;
+  background: linear-gradient(to bottom right , #352de5 , #c52090 );
+  overflow: visible;
+  width: 400px;
+  height: 440px;
+  top: 50px;
+  border-radius: 40px;
+}
+/* ###################### ABOUT SECTION ################### */
+.about_section {
+  background: #f8f9fa;
+  width: 100%;
+  padding-bottom: 40px;
+}
+.about_wrapper h1{
+  font-size: 45px !important;
+}
+.footer_right a:hover{
+  color: #e21e80 !important;
+  transition: all ease 0.2s;
+  text-decoration: none;
+}
+/* ################## FOOTER SECTION ####################### */
+.active_menu a{
+  color: #1e30f3 !important;
+}
+/* --------------------------------------------------------------------------------------------------------------------- */
+/* RESUME PAGE */
+.resume_section{
+  background: #f8f9fa;
+  width: 100%;
+}
+.resume_container{
+  width: 60%;
+}
+.resume_exp a{
+  background: #1e30f4;
+  color: #ffffff;
+  font-weight: 500;
+  border-radius: 10px;
+  margin-top: 5px;
+  padding: 5px 10px;
+}
+.resume_exp a:hover{
+  color: #ffffff;
+  background: #1a29cf !important;
+  transition: all ease 0.2s;
+}
+.resume_exp h2{
+   color: #1e30f3 !important;
+}
+.resume_box{
+  width: 100%;
+  background: #ffffff;
+  margin-bottom: 20px;
+
+}
+.exp_l_wrapper{
+  background: #f8f9fa;
+  border-radius: 30px;
+  width: 80%;
+}
+.resume_box{
+  border-radius: 30px !important;
+}
+.resume_edu h2{
+  color: #e21e80;
+}
+.resume_box_top span{
+  color: #1e30f3;
+  font-weight: 500;
+}
+#edu_box_1 span , #edu_box_2 span{
+  color: #e21e80 !important;
+  font-weight: 500 !important;
+}
+.exp_right{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.exp_l_wrapper h6{
+  transform: translateY(9px);
+}
+.exp_l_wrapper span{
+  color: #1e30f4 !important;
+  font-weight: 500;
+}
+.exp_right p{
+  color: #212529 !important;
+  font-weight: 400;
+}
+/* ######### SKILL SUB SECTION ######## */
+.skill_box{
+  background: #f8f9fa;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+  width: 100%;
+  height: auto;
+  padding: 10px 0 10px 15px;
+}
+.skil_title_box{
+  height: 40px !important;
+  width: 40px !important;
+  background: linear-gradient(to bottom right , #352de5 , #c52090 ) !important;
+  border-radius: 10px;
+}
+.exp_box:hover{
+  transform: scale(1.1);
+  transition: all ease 0.2s;
+}
+#skill_sub_section:hover{
+  transform: scale(1.1);
+  transition: all ease 0.2s;
+}
+/* --------------------------------------------------------------- */
+/* CONTACT PAGE */
+/* ########################### CONTACT SECTION ######################## */
+.section_container{
+  background: #f8f9fa;
+}
+.contact_1st_3 input{
+  padding: 25px 15px !important;
+}
+.contact_last input{
+  padding: 60px 15px !important;
+}
+.contact_last input::placeholder {
+  transform: translateY(-35px) !important;
+}
+.contact_button button {
+  background: #6a76f5;
+  padding: 10px 0;
+  color: #f8f9fa;
+  font-weight: 500;
+}
+.contact_button button:hover{
+  background: #c52090;
+  color: #f8f9fa;
+  transition: all ease 0.2s;
+}
+/* ------------------------------------------- */
+/* Project Page */
+/* ################## PROJECT SECTION ###################### */
+.project_section{
+  background: #f8f9fa;
+}
+
+
+
+
+/* FOR SMALLER DEVICES */
+@media (max-width: 768px) {
+  .menu {
+    position: fixed;
+    top: 50px; /* Place below the navbar */
+    
+    /* If width is 'x %' give it '-x %' */
+    left: -100%; 
+    height: 100%;
+    /* How much width of the nav bar u want to give while toggled */
+    width: 100%; 
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    /* To keep the menu righ bellow the icon on left
+    justify-content: flex-start;
+    align-items: flex-start; */
+
+    /* To keep the menu items on center ,vertically and horizontally */
+    justify-content: center;
+    align-items: center;
+    padding-left: 20px;
+    gap: 1.5rem;
+    transition: left 0.5s ease;
+    margin-top: 10px;
+  }
+  .menu.show {
+    left: 0;
+  }
+  .menu-toggle {
+    display: flex;
+  }
+  .logo {
+    margin-left: 10px;
+  }
+  body.menu-open {
+    overflow: hidden;
+  }
+  .home_menu{
+      /* Use it when u want to keep the menu items bellow icon and on the absolue left side
+      margin-top: 30px; */
+  }
+  .menu_toggle_wrapper{
+    display: flex;
+  }
+  .resume_container{
+    width: 75%;
+  }
+  .exp_l_wrapper{
+    margin: 0 auto;
+    width: 100%;
+    margin: 10px 0 8px 0;
+  }
+  .exp_right{
+    margin: 8px auto 0 auto;
+    width: 100%;
+  }
+  .contact_form form{
+    width: 75% !important;
+  }
+  .contact_button {
+    width: 75% !important;
+  }
+  .project_container {
+    width: 90% !important;
+  }
+}
+/* FOR SMALLEST DEVICE (PHONE) */
+@media (max-width: 575.8px) {
+  .intro_section h1{
+    font-size: 50px;
+    font-weight: 700;
+  }
+  #intro_box_button{
+    flex-direction: column !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+    width: 100% !important;
+  }
+  .intro_link_1{
+    margin-bottom: 27px !important;
+  }
+  .intro_link_1 a{
+    width: 80% !important;
+    padding: 15px 150px !important;
+  }
+  .intro_link_2 a{
+    width: 80% !important;
+    padding: 15px 150px !important;
+  }
+  .intro_img img{
+    width: 340px;
+    position: absolute;
+    transform: translateY(-71px);
+  }
+  .intro_img_back{
+    position: relative;
+    background: linear-gradient(to bottom right , #352de5 , #c52090 );
+    overflow: visible;
+    width: 360px;
+    height: 386px;
+    top: 50px;
+    border-radius: 40px;
+  }
+  .about_wrapper h1{
+    font-size: 37px !important;
+  }
+}
+
+
+
+

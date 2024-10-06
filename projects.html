@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio_1st</title>
+    <!-- LINKS -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <!-- Slick Slider CSS -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+     <!-- jQuery -->
+     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+     <!-- Slick Slider JS -->
+     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+</head>
+<body>
+    <!-- ################ HEADER SECTION ###########################  -->
+     <header>
+      <div class="container">
+        <nav class="navbar">
+          <div class="logo navbar-brand">Start Bootstrap</div>
+          <div class="menu_toggle_wrapper">
+            <div class="menu-toggle" id="menu-toggle">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+          </div>
+          <ul class="menu" id="menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="resume.html">Resume</a></li>
+            <li  class="active_menu"><a href="#">Projects</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+     </header>
+     <!-- ################# PROJECT SECTION ################## -->
+      <section class="project_section w-100 mx-auto py-5">
+        <div class="project_container w-50 mx-auto py-5">
+          <div class="project_heading text-center mb-5"><h1>Projects</h1></div>
+          <div class="your-slider">
+            <!-- 1 -->
+            <div class="slide">
+              <div class="project_box card shadow">
+                <div class="project_contents px-5 py-5">
+                  <h2>Project 1</h2>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius at enim eum illum aperiam placeat esse? Mollitia omnis minima saepe recusandae libero, iste ad asperiores! Explicabo commodi quo itaque!Ipsam!</p>
+                </div>
+              </div>
+            </div>
+            <!-- 2 -->
+            <div class="slide">
+              <div class="project_box card shadow">
+                <div class="project_contents px-5 py-5">
+                  <h2>Project 2</h2>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius at enim eum illum aperiam placeat esse? Mollitia omnis minima saepe recusandae libero, iste ad asperiores! Explicabo commodi quo itaque!Ipsam!</p>
+                </div>
+              </div>
+            </div>
+            <!-- 3 -->
+            <div class="slide">
+              <div class="project_box card shadow">
+                <div class="project_contents px-5 py-5">
+                  <h2>Project 3</h2>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius at enim eum illum aperiam placeat esse? Mollitia omnis minima saepe recusandae libero, iste ad asperiores! Explicabo commodi quo itaque!Ipsam!</p>
+                </div>
+              </div>
+            </div>
+            <!-- 4 -->
+            <div class="slide">
+              <div class="project_box card shadow">
+                <div class="project_contents px-5 py-5">
+                  <h2>Project 4</h2>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius at enim eum illum aperiam placeat esse? Mollitia omnis minima saepe recusandae libero, iste ad asperiores! Explicabo commodi quo itaque!Ipsam!</p>
+                </div>
+              </div>
+            </div>
+            <!-- 5 -->
+            <div class="slide">
+              <div class="project_box card shadow">
+                <div class="project_contents px-5 py-5">
+                  <h2>Project 5</h2>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius at enim eum illum aperiam placeat esse? Mollitia omnis minima saepe recusandae libero, iste ad asperiores! Explicabo commodi quo itaque!Ipsam!</p>
+                </div>
+              </div>
+            </div>
+            <!-- 6 -->
+            <div class="slide">
+              <div class="project_box card shadow">
+                <div class="project_contents px-5 py-5">
+                  <h2>Project 6</h2>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius at enim eum illum aperiam placeat esse? Mollitia omnis minima saepe recusandae libero, iste ad asperiores! Explicabo commodi quo itaque!Ipsam!</p>
+                </div>
+              </div>
+            </div>
+            <!-- end -->
+          </div>
+        </div>
+      </section>
+        <!-- ###################### FOOTER SECTION ################### -->
+        <footer class="footer_section">
+          <div class="container">
+            <div class="footer_left float-left">
+              <p class="mt-4">Copyright © Your Website 2023</p>
+            </div>
+            <div class="footer_right float-right py-4 font-weight-bold">
+              <a href="" class="mr-3">Privacy</a>
+              <a href="" class="mr-3">Term</a>
+              <a href="">Contact</a>
+            </div>
+          </div>
+        </footer>
+  
+
+
+        <script>
+          $(document).ready(function(){
+            $('.your-slider').slick({
+              infinite: true,
+              slidesToShow: 1,
+              slidesToScroll: 1,
+              autoplay: true,
+              autoplaySpeed: 2000,
+              dots: true,
+              arrows: true,
+            });
+          });
+        </script>
+      
+<!-- JS FILES -->
+ <script src="js/main.js"></script>
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
